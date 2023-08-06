@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>মডিউল ২ এর এসাইনমেন্ট</title>
+</head>
+<body>
+
+    <div id="contentDiv">Click the Button For Image</div>
+    <button id="changeContentButton">Click Me!</button>
+  <script>
+    //the button click event and change the content of the div element.
+    const button = document.getElementById('changeContentButton');
+    const contentDiv = document.getElementById('contentDiv');
+    button.addEventListener('click', () => {
+      contentDiv.innerHTML = '<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcA7XY-TcwcPeX5Kh_31AAoHVJ962ocBdwa8CX3vkdHA&s" alt="New Image Not Found">';
+    });
+  </script>
+</body>
+</html>
