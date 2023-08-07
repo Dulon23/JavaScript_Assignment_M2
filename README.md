@@ -1,4 +1,4 @@
-# JavaScript_Assignment_M2
+# JavaScript Assignment M2
 
 Question:
 
